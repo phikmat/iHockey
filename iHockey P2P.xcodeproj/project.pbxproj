@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4B99401EEA976600ECEBB9 /* cheerSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C4B993E1EEA976600ECEBB9 /* cheerSound.mp3 */; };
+		6C4B99411EEA976600ECEBB9 /* mlg-airhorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C4B993F1EEA976600ECEBB9 /* mlg-airhorn.mp3 */; };
+		D7519FE91EBB81BC000DC941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7519FE81EBB81BC000DC941 /* AppDelegate.swift */; };
+		D7519FEB1EBB81BC000DC941 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7519FEA1EBB81BC000DC941 /* GameScene.sks */; };
+		D7519FED1EBB81BC000DC941 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D7519FEC1EBB81BC000DC941 /* Actions.sks */; };
+		D7519FEF1EBB81BC000DC941 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7519FEE1EBB81BC000DC941 /* GameScene.swift */; };
+		D7519FF11EBB81BC000DC941 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7519FF01EBB81BC000DC941 /* GameViewController.swift */; };
+		D7519FF41EBB81BC000DC941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7519FF21EBB81BC000DC941 /* Main.storyboard */; };
+		D7519FF61EBB81BC000DC941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7519FF51EBB81BC000DC941 /* Assets.xcassets */; };
+		D7519FF91EBB81BC000DC941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7519FF71EBB81BC000DC941 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C4B993E1EEA976600ECEBB9 /* cheerSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cheerSound.mp3; path = Sounds/cheerSound.mp3; sourceTree = "<group>"; };
+		6C4B993F1EEA976600ECEBB9 /* mlg-airhorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mlg-airhorn.mp3"; path = "Sounds/mlg-airhorn.mp3"; sourceTree = "<group>"; };
+		D7519FE51EBB81BC000DC941 /* iHockey P2P.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iHockey P2P.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7519FE81EBB81BC000DC941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7519FEA1EBB81BC000DC941 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D7519FEC1EBB81BC000DC941 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D7519FEE1EBB81BC000DC941 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D7519FF01EBB81BC000DC941 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D7519FF31EBB81BC000DC941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7519FF51EBB81BC000DC941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7519FF81EBB81BC000DC941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7519FFA1EBB81BC000DC941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7519FE21EBB81BC000DC941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4B99391EEA96FD00ECEBB9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6C4B993E1EEA976600ECEBB9 /* cheerSound.mp3 */,
+				6C4B993F1EEA976600ECEBB9 /* mlg-airhorn.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		D7519FDC1EBB81BC000DC941 = {
+			isa = PBXGroup;
+			children = (
+				D7519FE71EBB81BC000DC941 /* iHockey P2P */,
+				D7519FE61EBB81BC000DC941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7519FE61EBB81BC000DC941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7519FE51EBB81BC000DC941 /* iHockey P2P.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7519FE71EBB81BC000DC941 /* iHockey P2P */ = {
+			isa = PBXGroup;
+			children = (
+				D7519FE81EBB81BC000DC941 /* AppDelegate.swift */,
+				6C4B99391EEA96FD00ECEBB9 /* Sounds */,
+				D7519FEA1EBB81BC000DC941 /* GameScene.sks */,
+				D7519FEC1EBB81BC000DC941 /* Actions.sks */,
+				D7519FEE1EBB81BC000DC941 /* GameScene.swift */,
+				D7519FF01EBB81BC000DC941 /* GameViewController.swift */,
+				D7519FF21EBB81BC000DC941 /* Main.storyboard */,
+				D7519FF51EBB81BC000DC941 /* Assets.xcassets */,
+				D7519FF71EBB81BC000DC941 /* LaunchScreen.storyboard */,
+				D7519FFA1EBB81BC000DC941 /* Info.plist */,
+			);
+			path = "iHockey P2P";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7519FE41EBB81BC000DC941 /* iHockey P2P */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7519FFD1EBB81BC000DC941 /* Build configuration list for PBXNativeTarget "iHockey P2P" */;
+			buildPhases = (
+				D7519FE11EBB81BC000DC941 /* Sources */,
+				D7519FE21EBB81BC000DC941 /* Frameworks */,
+				D7519FE31EBB81BC000DC941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iHockey P2P";
+			productName = AirHockey2;
+			productReference = D7519FE51EBB81BC000DC941 /* iHockey P2P.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7519FDD1EBB81BC000DC941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "John Hersey High School";
+				TargetAttributes = {
+					D7519FE41EBB81BC000DC941 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Y4JZNHFCU9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7519FE01EBB81BC000DC941 /* Build configuration list for PBXProject "iHockey P2P" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7519FDC1EBB81BC000DC941;
+			productRefGroup = D7519FE61EBB81BC000DC941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7519FE41EBB81BC000DC941 /* iHockey P2P */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7519FE31EBB81BC000DC941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7519FF41EBB81BC000DC941 /* Main.storyboard in Resources */,
+				D7519FEB1EBB81BC000DC941 /* GameScene.sks in Resources */,
+				6C4B99401EEA976600ECEBB9 /* cheerSound.mp3 in Resources */,
+				D7519FF61EBB81BC000DC941 /* Assets.xcassets in Resources */,
+				6C4B99411EEA976600ECEBB9 /* mlg-airhorn.mp3 in Resources */,
+				D7519FF91EBB81BC000DC941 /* LaunchScreen.storyboard in Resources */,
+				D7519FED1EBB81BC000DC941 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7519FE11EBB81BC000DC941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7519FEF1EBB81BC000DC941 /* GameScene.swift in Sources */,
+				D7519FF11EBB81BC000DC941 /* GameViewController.swift in Sources */,
+				D7519FE91EBB81BC000DC941 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7519FF21EBB81BC000DC941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7519FF31EBB81BC000DC941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7519FF71EBB81BC000DC941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7519FF81EBB81BC000DC941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7519FFB1EBB81BC000DC941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7519FFC1EBB81BC000DC941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7519FFE1EBB81BC000DC941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4JZNHFCU9;
+				INFOPLIST_FILE = "iHockey P2P/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiapicariello.iHockeyP2P;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7519FFF1EBB81BC000DC941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4JZNHFCU9;
+				INFOPLIST_FILE = "iHockey P2P/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.mattiapicariello.iHockeyP2P;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7519FE01EBB81BC000DC941 /* Build configuration list for PBXProject "iHockey P2P" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7519FFB1EBB81BC000DC941 /* Debug */,
+				D7519FFC1EBB81BC000DC941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7519FFD1EBB81BC000DC941 /* Build configuration list for PBXNativeTarget "iHockey P2P" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7519FFE1EBB81BC000DC941 /* Debug */,
+				D7519FFF1EBB81BC000DC941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7519FDD1EBB81BC000DC941 /* Project object */;
+}
